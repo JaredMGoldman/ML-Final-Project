@@ -8,6 +8,10 @@ The 'data' directory contains the trimmed datasets for the models to be trained 
 
 The python file 'data_parser.py' contains the script that is used to create the files in the data directory.  It uses the raw data from the csv file and trims each election dataset to only include helpful sets of features.
 
+The python file 'model.py' is used to generate, train, and analyze the machine learning model.  It uses Keras and matplotlib.pyplot to accomplish these tasks.
+
+The h5 file 'my_new_model.h5' is a copy of our final model and can be accessed using the command "tf.keras.models.load_model('/path/to/my_new_model.h5')" in python.
+
 ## Features
 
 ### cvap\_pct
